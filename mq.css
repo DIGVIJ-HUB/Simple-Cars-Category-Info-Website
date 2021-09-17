@@ -1,0 +1,29 @@
+@media (max-width: 24em) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    background-size: cover;
+    display: grid;
+    margin-left: 8%;
+    width: 20rem;
+    height: 80rem;
+    grid-template-rows: 26rem 26rem 26rem;
+  }
+
+  .para {
+    margin-top: 20px;
+  }
+
+  .padding {
+    padding: 35px;
+  }
+
+  .btn1,
+  .btn2,
+  .btn3 {
+    margin-top: 40px;
+    margin-left: 0;
+  }
+}
